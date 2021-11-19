@@ -1,0 +1,13 @@
+import time
+import os
+print("Добро пожаловать в BiblioPass")
+time.sleep(1)
+myname = ("Введите логин : ")
+mypass = ("Введите пароль : ")
+if myname == "Test" and mypass == "Test" :
+    print("Добро пожаловать : ")
+    time.sleep(1)
+    print("Увы, вы не наш разработчик")
+else:
+    print("Не верный логин или пароль")
+	
